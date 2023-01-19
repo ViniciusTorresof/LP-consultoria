@@ -160,6 +160,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 4rem auto 0 auto;
+    padding-right: 2rem;
 }
 
 .secao_chamativa .bloco_preencher .botao_preencher-form {
