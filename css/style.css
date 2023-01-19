@@ -1,0 +1,454 @@
+@import url(config.css);
+@import url(base.css);
+
+.cabecalho {
+    width: 100%;
+    border-bottom: .3rem solid rgba(189, 189, 189, 0.25);
+    background-color: #fff;
+    z-index: 4;
+}
+
+.cabecalho .container-cabecalho{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .logo {
+    width: 6.9rem;
+}
+
+.cabecalho .cabecalho_nav .lista_nav {
+    display: flex;
+    gap: 9.3rem;
+}
+
+.cabecalho .cabecalho_nav .lista_nav .item_nav .link_item{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.42rem;
+    color: var(--cor-verde-texto);
+}
+
+.secao_principal {
+    height: 70rem;
+    background-image: url(../img/foto_principal.svg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao_principal .container_principal {
+    padding-top: 8rem;
+}
+
+.secao_principal .container_principal .titulo_secao-principal{
+    max-width: 60rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 4.6rem;
+    line-height: 6rem;
+}
+
+.secao_principal .container_principal .texto_descritivo, .texto_chamativo{
+    max-width: 60rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.secao_principal .container_principal .texto_descritivo {
+    margin: 3.5rem 0 2rem 0;
+}
+
+.secao_principal .container_principal .texto_chamativo{
+    max-width: 40rem;
+    font-size: 2rem;
+}
+.destaque {
+    font-weight: 800;
+    color: var(--cor-destaque-texto);
+}
+.destaque_texto {
+    font-weight: 600;
+}
+
+.secao_chamativa {
+    position: relative;
+}
+
+.secao_chamativa .container_chamativo{
+    margin: 7rem 0 13rem 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.secao_chamativa .container_chamativo .bg_img {
+    width: 100%;
+    position: absolute;
+    height: 27rem;
+}
+
+.secao_chamativa .container_chamativo .titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    z-index: 3;
+}
+
+.secao_chamativa .container_chamativo .titulo .destaque-chamativo {
+    font-weight: 900;
+}
+
+.secao_chamativa .container_chamativo .descricao {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    z-index: 3;
+    padding-bottom: 3rem;
+}
+
+.secao_chamativa .container_beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.secao_chamativa .container_beneficios .beneficio_card{
+    width: 25rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.secao_chamativa .beneficio_card .gif_card {
+    width: 8rem;
+    border-radius: 100%;
+}
+
+.secao_chamativa .beneficio_card .titulo_beneficio{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.secao_chamativa .beneficio_card .descricao_beneficio{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.secao_chamativa .beneficio_card .descricao_2 {
+    margin-top: 3rem;
+}
+ 
+.secao_chamativa .beneficio_card .descricao_beneficio .destaque_beneficio {
+    font-weight: 600;
+}
+
+.secao_chamativa .bloco_preencher {
+    max-width: 120rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 4rem auto 0 auto;
+}
+
+.secao_chamativa .bloco_preencher .botao_preencher-form {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--cor-laranja);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.secao_chamativa .bloco_preencher .botao_preencher-form .icone {
+    width: 2.2rem;
+}
+
+.secao_chamativa .container_form .formulario .botao_acao {
+    margin: 2rem 0;
+}
+
+.secao_carrosel .titulo_carrosel {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3.9rem;
+    max-width: 80rem;
+    text-align: center;
+    margin: 10rem auto 6rem auto;
+}
+
+.secao_carrosel .titulo_carrosel .destaque_carrosel {
+    color: var(--cor-principal);
+    font-weight: 800;
+}
+
+.secao_carrosel .container_carrosel{
+    display: flex;
+    gap: 4rem;
+    overflow: hidden;
+    padding-left: 5rem;
+}
+
+.secao_carrosel .container_carrosel .bloco_carrosel .imagem_carrosel{
+    width: 37rem;
+}
+
+.secao_carrosel .container_carrosel .bloco_carrosel .img-png {
+    border: .1rem solid #81818180;
+    border-radius: 1rem;
+}
+
+.secao_carrosel .container_carrosel .bloco_carrosel .descricao_carrosel{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.secao_carrosel .container_chamada-de-acao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.secao_carrosel .container_chamada-de-acao .titulo_chamativo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.secao_carrosel .container_chamada-de-acao button{
+    margin: 2rem 0 0;
+}
+
+.secao_sobre {
+    max-width: 120rem;
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+    margin: 8rem auto 1rem auto;
+}
+
+.secao_sobre .imagem_logo-rfc {
+    width: 40rem;
+    margin-bottom: 6rem;
+}
+
+.secao_sobre .titulo_sobre {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.secao_sobre .titulo_sobre .destaque_sobre {
+    font-weight: 700;
+}
+
+.secao_sobre .lista_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.secao_sobre .lista_sobre .item_sobre{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.9rem;
+}
+
+.formulario{
+    width: 65rem;
+    height: 70rem;
+    padding: 5rem 4rem 7rem 4rem;
+}
+
+.formulario .cabecalho_form {
+    margin-bottom: 4rem;
+}
+
+.formulario .cabecalho_form .titulo_form{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.formulario  .cabecalho_form .descricao_form{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+}
+
+.formulario .container_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    padding: 0;
+}
+
+.formulario .container_form .texto_chamativo{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.formulario .container_form .blocos_form  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario .container_form input {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.4rem;
+    width: 27rem;
+    height: 4.7rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+
+.formulario  .container_form .input_desafio {
+    width: 100%;
+}
+
+.formulario .container_form .bloco_input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario .container_form .bloco_input .erro_input {
+    color: var(--cor-laranja); 
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.modal_form-respondido {
+    width: 40rem;
+    height: 23.5rem;
+    padding: 1rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_form-respondido .cabecalho_modal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_form-respondido .cabecalho_modal .botao_fechar-form {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.modal_form-respondido .titulo_modal {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
+
+.modal_form-respondido .descricao_agradecimento {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.modal_form-respondido .botao_acao {
+    width: 25rem;
+    height: 4.5rem;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .svg-ondas{
+    width: 100%;
+    height: 55vh;
+    margin-bottom: -.7rem;
+    min-height: 10rem;
+    max-height: 15rem;
+}
+  
+.footer .container_footer {
+    background-color: var(--cor-principal);
+}
+
+.bloco_footer {
+    padding: 0 5rem;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer address {
+    margin-bottom: 1rem;
+}
+
+.footer .nome_empresa, .descricao_direitos, .descricao_endereco, .cep {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.footer .logo_footer {
+    width: 15rem;
+} 
+.footer .lista_navgecao-footer {
+    display: flex;
+    gap: 1rem;
+}
+.footer .lista_navgecao-footer .link_navegacao .icone{
+    width: 4rem;
+}
+
+
+@media (max-width: 900px) {
+    .secao_sobre {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0;
+        margin: 0;
+    }
+    .bloco_footer {
+        height: 20vh;
+    }
+    .footer .logo_footer {
+        width: 10rem;
+    }
+    .bloco_footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .bloco_footer img {
+        width: 10rem;
+    }
+}
