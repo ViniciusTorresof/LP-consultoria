@@ -199,13 +199,13 @@
 
 .secao_carrosel .container_carrosel{
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     overflow: hidden;
     padding-left: 5rem;
 }
 
 .secao_carrosel .container_carrosel .bloco_carrosel .imagem_carrosel{
-    width: 37rem;
+    width: 35rem;
 }
 
 .secao_carrosel .container_carrosel .bloco_carrosel .img-png {
